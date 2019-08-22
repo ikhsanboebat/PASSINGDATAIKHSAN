@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/logo"
+        android:src="@drawable/gojek"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="70dp"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_margin="3dp">
+
+        <ImageButton
+            android:id="@+id/ImageButton1"
+            android:onClick="buttongambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_gomart"
+            android:background="#fff"
+            />
+        <ImageButton
+            android:id="@+id/ImageButton2"
+            android:onClick="buttongambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_goride"
+            android:background="#fff"
+            />
+        <ImageButton
+            android:id="@+id/ImageButton3"
+            android:onClick="buttongambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_gofood"
+            android:background="#fff"
+            />
+        <ImageButton
+            android:id="@+id/ImageButton4"
+            android:onClick="buttongambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_gosend"
+            android:background="#fff"
+            />
+    </GridLayout>
+</LinearLayout>
